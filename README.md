@@ -2,8 +2,9 @@
 Passdicit is a tool for making password lists. It asks questions about your name, surname, gender, hobbies, and favorite movies. Then, it uses this information to create unique passwords. The name "Passdicit" comes from "pass" for passwords and "dict" for dictionary, showing how it predicts passwords based on personal details.
 
 ## Installation
-There is two different ways to install passdicit, using pypoetry and using only pip.  
-### Installing with pip  
+There is two different ways to install passdicit, using pypoetry and using only pip.
+
+#### Installing with pip  
 Use these commands on Linux:  
 ```bash
 git clone https://github.com/dincertekin/passdicit.git
@@ -12,7 +13,7 @@ pip install -r requirements.txt
 python passdicit.py
 ```
 
-### Installing with pypoetry
+#### Installing with pypoetry
 Use these commands on Linux:
 ```bash
 git clone https://github.com/dincertekin/passdicit.git
