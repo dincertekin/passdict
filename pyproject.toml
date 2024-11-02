@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "passdicit"
+version = "0.1.0"
+description = "A simple tool to generate common user password predictions for brute-force attacks."
+authors = ["Dinçer Tekin <dincertekin@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+rich = "^13.9.2"
+pyfiglet = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
