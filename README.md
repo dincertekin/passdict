@@ -1,7 +1,6 @@
-$${\color{red}For \space educational \space purposes \space only!}$$
-
 # passdicit
-Passdicit is a tool for making password lists. It asks questions about your name, surname, gender, hobbies, and favorite movies. Then, it uses this information to create unique passwords. The name "Passdicit" comes from "pass" for passwords and "dict" for dictionary, showing how it predicts passwords based on personal details.
+Passdicit is a tool for making password lists. It asks questions about your name, surname, gender, hobbies, and favorite movies. Then, it uses this information to create unique passwords. The name "Passdicit" comes from "pass" for passwords and "dict" for dictionary, showing how it predicts passwords based on personal details.  
+**NOTE:** This tool is designed for educational purposes only, author is not responsible for illegal uses.
 
 ## Screenshots
 ![](https://i.imgur.com/uehuyKX.png)
