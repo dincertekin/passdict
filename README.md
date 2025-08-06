@@ -30,7 +30,7 @@ python passdicit.py
 Contributions are very welcome! We can improve this tool together! 😊
 
 ## License
-This project is licensed under [MIT License](LICENSE).
+This project is licensed under [Apache-2.0 License](LICENSE).
 
 ## Thanks
 This project is inspired by Mebus's [cupp](https://github.com/Mebus/cupp).
