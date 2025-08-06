@@ -3,7 +3,7 @@ Passdicit is a tool for making password lists. It asks questions about your name
 **NOTE:** This tool is designed for educational purposes only, author is not responsible for illegal uses.
 
 ## Screenshots
-![](https://i.imgur.com/uehuyKX.png)
+![passdicit screenshot](images/screenshot.png)
 
 ## Installation
 There is two different ways to install passdicit, using pypoetry and using only pip.
