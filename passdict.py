@@ -24,9 +24,9 @@ def generate_passwords(first_name, last_name, age, keywords, colors, pets, hobbi
 
 def main():
     parser = argparse.ArgumentParser(
-        prog='passdicit',
+        prog='passdict',
         description='A password generator tool based on user information.',
-        epilog='For more info, visit: github.com/dincertekin/passdicit'
+        epilog='For more info, visit: github.com/dincertekin/passdict'
     )
 
     parser.add_argument('-a', '--min', type=int, default=6, help='Minimum password length')
@@ -35,7 +35,7 @@ def main():
     args = parser.parse_args()
 
     f = Figlet(font='slant')
-    print(f.renderText('passdicit'))
+    print(f.renderText('passdict'))
 
     first_name = Prompt.ask("First Name")
     last_name = Prompt.ask("Last Name")

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "passdicit"
+name = "passdict"
 version = "0.1.0"
 description = "A simple tool to generate common user password predictions for brute-force attacks."
 authors = ["Dinçer Tekin <dincertekin@protonmail.com>"]
