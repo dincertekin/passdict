@@ -1,7 +1,7 @@
 # passdict
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![License](https://img.shields.io/badge/license-Apache%202.0-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 passdict is a Python-based tool that generates personalized password lists based on information like name, surname, hobbies, and favorite movies. Useful for security research and understanding how personal data can be used to guess passwords. Inspired by [cupp](https://github.com/Mebus/cupp).
 
@@ -59,4 +59,4 @@ For major changes, please open an issue first to discuss what you'd like to chan
 
 ## License
 
-Apache 2.0 License — see [LICENSE](./LICENSE) for details.
+MIT License — see [LICENSE](./LICENSE) for details.
