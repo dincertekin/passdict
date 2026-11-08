@@ -11,10 +11,15 @@ import queue
 def generate_passwords(first_name, last_name, age, keywords, colors, pets, hobbies, min_length, max_length, num_passwords, result_queue):
     passwords = set()
     base_components = [first_name, last_name, str(age)] + keywords + colors + pets + hobbies
+    base_components = [c.strip() for c in base_components if c.strip()]
 
-    while len(passwords) < num_passwords:
-        password_length = random.randint(min_length, max_length)
-        password = ''.join(random.choices(base_components, k=password_length))
+    # Each password joins 1 to 4 components. Some inputs can't make enough unique
+    # passwords in the length range, so stop after a fixed number of attempts.
+    attempts = 0
+    max_attempts = num_passwords * 1000
+    while base_components and len(passwords) < num_passwords and attempts < max_attempts:
+        attempts += 1
+        password = ''.join(random.choices(base_components, k=random.randint(1, 4)))
 
         if min_length <= len(password) <= max_length:
             passwords.add(password)
@@ -69,6 +74,8 @@ def main():
             f.write(f"{password}\n")
 
     rprint(f"[bold green]Generated [white]{len(result)}[/white] passwords and saved to [white]passwords.lst[/white] file.[/bold green]")
+    if len(result) < args.limit:
+        rprint(f"[yellow]Only {len(result)} of {args.limit} fit between {args.min} and {args.max} characters. Add more details or widen the length range for more.[/yellow]")
 
 if __name__ == "__main__":
     main()
