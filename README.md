@@ -1,7 +1,9 @@
 # passdict
 
-[![license: MIT](https://img.shields.io/badge/license-MIT-111827)](LICENSE)
-![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-111827?logo=python)
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/python-313-dark.svg"><img src="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/python-313-light.svg" alt="Python 3.13+" height="28"></picture>
+  <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/mit-dark.svg"><img src="https://raw.githubusercontent.com/dincertekin/dincertekin/main/assets/badges/mit-light.svg" alt="MIT license" height="28"></picture></a>
+</p>
 
 **Build a wordlist from what you know about a person.** Answer a few
 questions (name, age, pets, hobbies, favorite colors, keywords) and passdict
